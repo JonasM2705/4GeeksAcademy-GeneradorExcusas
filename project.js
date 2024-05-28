@@ -25,7 +25,19 @@ function agregarExcusas()
     }
 }
 
-
+document.addEventListener('DOMContentLoaded', function() {
+    document.body.addEventListener('click', function(event) {
+      if (event.target === document.body) {
+        if (document.fullscreenElement) {
+          document.exitFullscreen();
+        } else {
+          document.body.requestFullscreen();
+        }
+      }
+    });
+  });
+  
+  
 
 function agregarExcusa(cantidad) {
     const elementoOriginal = document.getElementById('excuse');
