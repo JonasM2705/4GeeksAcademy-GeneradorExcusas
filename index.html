@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Generador de Excusas</title>
+</head>
+<script src="./project.js"></script>
+<body onload='Excuse("excuse")'>
+    <div class="Excusa" id="contenedor">
+        <p id="excuse" onclick="Excuse(this.id)"><br></p>
+    </div>
+        <input id="cantidad" type="number">
+        <button onclick="agregarExcusas()">Agregar Excusa</button>
+</body>
+</html>

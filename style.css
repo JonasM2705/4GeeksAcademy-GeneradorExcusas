@@ -1,0 +1,19 @@
+body
+{
+ background-color: black;
+}
+
+.Excusa{
+   border: rgb(95, 4, 4) 10px groove;
+   background-color: rgb(255, 0, 0);
+   color: white;
+   overflow: scroll;
+   width: 370px;
+   height: 300px;
+   justify-content: center;
+   text-align: center;  
+}
+
+.Excusa p{
+   cursor: pointer;
+}
